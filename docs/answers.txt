@@ -1,0 +1,46 @@
+Joshua John
+a)warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': jj16d
+Password for 'https://jj16d@github.com':
+Counting objects: 5, done.
+Delta compression using up to 56 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 390 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/jj16d/assignment2.git
+   22b9dde..959e41b  master -> master
+b)There were 9 commits. I used the command "git log".
+c).gitignore was last modified Wed Sep 25 18:13:30 2019. I used the command
+git log -1 .gitignore
+d)Branching allows you do experimental changes to code without messing up
+the main code. It also allows work to happen in parallel for example
+teamates can branch to add features and then merge them.
+e)git status displays the state of the working directory and staging area.
+git log is a running record of commits.
+f) git log --follow -- Vehicle.h
+g) git log --all --grep="file"
+h)Inheritance allows a class to have the same behavior as another class and
+extend that behavior for specific needs. Polymorphism is a language's
+ability to process objects differently depending on their data type or class. 
+Encapsulation is used to hide the values or state of a data object inside a
+class preventing unauthorized parties' direct access to them.
+i) The main difference between the two workflows is that is that there are
+muliple lieutants merging changes where in IM workflow there is just the
+integration manager doing it.
+j)A team of 100 developers would benefit from the DL workflow more because
+they can have many lieutenats merging changes whereas Centalized they would 
+have to do merging themselves.

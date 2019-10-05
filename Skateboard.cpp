@@ -1,3 +1,6 @@
+//
+//Joshua John
+//
 #include "Skateboard.h"
 #include <cstdlib>
 #include <iostream>

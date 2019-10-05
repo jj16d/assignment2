@@ -44,3 +44,11 @@ integration manager doing it.
 j)A team of 100 developers would benefit from the DL workflow more because
 they can have many lieutenats merging changes whereas Centalized they would 
 have to do merging themselves.
+
+OOP princples)
+Yes, the driving simulator prototype is using polymorphism and encapsulation.
+The prototype is using polymorpism by having Car, Jet, etc. inherit from the
+powered vehicles class. The all have a function called to string but call 
+their specific version based on their type. The prototype is using 
+encapsulation by hiding private member varibales and only allowing them to
+be modified through constructors and setting funcitons.

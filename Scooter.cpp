@@ -1,3 +1,6 @@
+//
+//Joshua John
+//
 #include "Scooter.h"
 #include <cstdlib>
 #include <iostream>

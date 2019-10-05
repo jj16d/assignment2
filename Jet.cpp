@@ -1,9 +1,12 @@
+//
+//Joshua John
+//
 #include "Jet.h"
 #include <cstdlib>
 #include <iostream>
 #include <ctime>
 #include <string>
-//using namespace std;
+
 Jet::Jet(){
   numOfEngines = 1;
   setBrand("Custom");
